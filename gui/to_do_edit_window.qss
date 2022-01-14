@@ -1,0 +1,112 @@
+/*edit_todo_window*/
+#edit_todo_window_background{
+    background: transparent;
+    border-image: url(data/ui/edit_window/to_do/bg.png);
+}
+#edit_todo_window_select_date_background{
+    border-image: url(data/ui/edit_window/select_date/bg.png);
+}
+#edit_todo_window_label{
+    border-image: url(data/ui/edit_window/to_do/title.png);
+}
+#edit_todo_window_line_edit{
+    border-image: url(data/ui/edit_window/to_do/input.png);
+}
+.edit_todo_window_date_add_button{
+    border-image: url(data/ui/edit_window/select_date/add.png);
+}
+.edit_todo_window_date_add_button:hover{
+    border-image: url(data/ui/edit_window/select_date/add_hover.png);
+}
+.edit_todo_window_date_add_button:pressed{
+    border-image: url(data/ui/edit_window/select_date/add_pressed.png);
+}
+.edit_todo_window_date_cut_button{
+    border-image: url(data/ui/edit_window/select_date/sub.png);
+}
+.edit_todo_window_date_cut_button:hover{
+    border-image: url(data/ui/edit_window/select_date/sub_hover.png);
+}
+.edit_todo_window_date_cut_button:pressed{
+    border-image: url(data/ui/edit_window/select_date/sub_pressed.png);
+}
+
+/*唤醒时间设置按钮*/
+.edit_window_time_button{
+    border-image: url(data/ui/edit_window/to_do/clock.png);
+}
+.edit_window_time_button:hover{
+    border-image: url(data/ui/edit_window/to_do/clock_hover.png);
+}
+.edit_window_time_button:pressed{
+    border-image: url(data/ui/edit_window/to_do/clock_pressed.png);
+}
+
+.edit_todo_window_date_check_button{
+    border-image: url(data/ui/edit_window/select_date/check.png);
+}
+.edit_todo_window_date_check_button:hover{
+    border-image: url(data/ui/edit_window/select_date/check_hover.png);
+}
+.edit_todo_window_date_check_button:pressed{
+    border-image: url(data/ui/edit_window/select_date/check_pressed.png);
+}
+#edit_todo_window_date_value_line_edit{
+    border-image: url(data/ui/edit_window/select_date/month.png);
+}
+#edit_todo_window_date_value_line_edit_L{
+    border-image: url(data/ui/edit_window/select_date/year.png);
+}
+.edit_todo_window_date_mid_button{
+    border-image: url(data/ui/edit_window/select_date/hyphen.png);
+}
+.edit_todo_window_time_mid_button{
+    border-image: url(data/ui/edit_window/select_date/maohao.png);
+}
+
+
+.edit_window_save_button{
+    border-image: url(data/ui/edit_window/operate/save.png);
+}
+.edit_window_save_button:hover{
+    border-image: url(data/ui/edit_window/operate/save_hover.png);
+}
+.edit_window_save_button:pressed{
+    border-image: url(data/ui/edit_window/operate/save_pressed.png);
+}
+.edit_window_cancel_button{
+    border-image: url(data/ui/edit_window/operate/cancel.png);
+}
+.edit_window_cancel_button:hover{
+    border-image: url(data/ui/edit_window/operate/cancel_hover.png);
+}
+.edit_window_cancel_button:pressed{
+    border-image: url(data/ui/edit_window/operate/cancel_pressed.png);
+}
+.edit_window_delete_button{
+    border-image: url(data/ui/edit_window/operate/delete.png);
+}
+.edit_window_delete_button:hover{
+    border-image: url(data/ui/edit_window/operate/delete_hover.png);
+}
+.edit_window_delete_button:pressed{
+    border-image: url(data/ui/edit_window/operate/delete_pressed.png);
+}
+
+
+
+.title_two{
+    font-family: 微软雅黑;
+    font-size: 25px;
+    color: white;
+}
+.description_two{
+    font-family: 微软雅黑;
+    font-size: 15px;
+    color: gray;
+}
+.date_two{
+    font-family: 微软雅黑;
+    font-size: 20px;
+    color: gray;
+}

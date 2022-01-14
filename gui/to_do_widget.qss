@@ -1,0 +1,257 @@
+
+/*tab_bar的空间样式*/
+/*habit_widget的情况*/
+#tab_bar_to_do_button
+{
+    border-image:url(data/ui/to_do/tab_bar_to_do_button.png)
+}
+#tab_bar_to_do_button:hover
+{
+    border-image:url(data/ui/to_do/tab_bar_to_do_button_hover.png)
+}
+#tab_bar_to_do_button:pressed
+{
+    border-image:url(data/ui/to_do/tab_bar_to_do_button_pressed.png)
+}
+
+#tab_bar_habit_button
+{
+    border-image:url(data/ui/to_do/tab_bar_habit_button.png)
+}
+#tab_bar_habit_button:hover
+{
+    border-image:url(data/ui/to_do/tab_bar_habit_button_hover.png)
+}
+#tab_bar_habit_button:pressed
+{
+    border-image:url(data/ui/to_do/tab_bar_habit_button_pressed.png)
+}
+
+#tab_bar_plant_button
+{
+    border-image:url(data/ui/to_do/tab_bar_plant_button.png)
+}
+#tab_bar_plant_button:hover
+{
+    border-image:url(data/ui/to_do/tab_bar_plant_button_hover.png)
+}
+#tab_bar_plant_button:pressed
+{
+    border-image:url(data/ui/to_do/tab_bar_plant_button_pressed.png)
+}
+#tab_bar_medal_button
+{
+    border-image: url(data/ui/to_do/tab_bar_analyse_button.png);
+}
+#tab_bar_medal_button:hover
+{
+    border-image: url(data/ui/to_do/tab_bar_analyse_button_hover.png);
+}
+#tab_bar_medal_button:pressed
+{
+    border-image: url(data/ui/to_do/tab_bar_analyse_button_pressed.png);
+}
+
+
+#tab_bar
+{
+    border-image:url(data/ui/to_do/tab_bar_bg.png)
+}
+#help_button{
+    border-image: url(data/ui/help/help_icon.png);
+}
+#help_button:hover{
+    border-image: url(data/ui/help/help_icon_hover.png);
+}
+#help_button:pressed{
+    border-image: url(data/ui/help/help_icon_pressed.png);
+}
+
+
+/*to_do_widget的控件样式*/
+#to_do_widget
+{
+    border-image: url(data/ui/to_do/to_do_widget.png);
+}
+
+    /*list_box的控件*/
+/*    包含to_do_list_box的那个Qframe*/
+#to_do_punch_interface_frame
+{
+    border-image: url(data/ui/to_do/to_do_list_box.png);
+}
+#to_do_list_box_show_complete_button
+{
+    border-image: url(data/ui/to_do/to_do_finished_button.png);
+}
+#to_do_list_box_show_complete_button:hover
+{
+    border-image: url(data/ui/to_do/to_do_finished_button_hover.png);
+}
+#to_do_list_box_show_complete_button:pressed
+{
+    border-image: url(data/ui/to_do/to_do_finished_button_pressed.png);
+}
+#to_do_list_box_show_uncomplete_button
+{
+    border-image: url(data/ui/to_do/to_do_unfinished_button.png);
+}
+#to_do_list_box_show_uncomplete_button:hover
+{
+    border-image: url(data/ui/to_do/to_do_unfinished_button_hover.png);
+}
+#to_do_list_box_show_uncomplete_button:pressed
+{
+    border-image: url(data/ui/to_do/to_do_unfinished_button_pressed.png);
+}
+#to_do_list_box_add_button
+{
+    border-image: url(data/ui/to_do/to_do_add_button.png);
+}
+#to_do_list_box_add_button:hover
+{
+    border-image: url(data/ui/to_do/to_do_add_button_hover.png);
+}
+#to_do_list_box_add_button:pressed
+{
+    border-image: url(data/ui/to_do/to_do_add_button_pressed.png);
+}
+#to_do_name_label
+{
+    border-image: url(data/ui/to_do/to_do_info.png);
+}
+/*    包含my_day_list_box的那个Qframe*/
+#my_day_punch_interface
+{
+    border-image: url(data/ui/to_do/my_day_list_box.png);
+}
+#my_day_list_box_add_button
+{
+    border-image: url(data/ui/to_do/my_day_add_button.png);
+}
+#my_day_list_box_add_button:hover
+{
+    border-image: url(data/ui/to_do/my_day_add_button_hover.png);
+}
+#my_day_list_box_add_button:pressed
+{
+    border-image: url(data/ui/to_do/my_day_add_button_pressed.png);
+}
+#my_day_list_box_show_calendar_button
+{
+    border-image: url(data/ui/to_do/my_day_calendar_button.png);
+}
+#my_day_list_box_show_calendar_button:hover
+{
+    border-image: url(data/ui/to_do/my_day_calendar_button_hover.png);
+}
+#my_day_list_box_show_calendar_button:pressed
+{
+    border-image: url(data/ui/to_do/my_day_calendar_button_pressed.png);
+}
+#my_day_name_label
+{
+    border-image: url(data/ui/to_do/my_day_info.png);
+}
+
+
+/*list_box控件 样式关联habit_list_box /to_do_list_box/my_day_list_box*/
+/*这里可以修改滚动条样式 部分滚动区域样式也可以在这里面更改 指代的类形是QScrollArea*/
+#list_box
+{
+    background: transparent;
+    border:none;
+}
+/*这里可以更改滚动区域样式     代表的类型是QFrame*/
+#list_box_frame
+{
+    background: transparent;
+    border:none;
+}
+#plant_bubble
+{
+border-image: url(data/ui/to_do/my_day_info.png);
+}
+
+/*所有的bar都集中在下面*/
+    /*my_day*/
+    #my_day_text_button{
+        border-image: url(data/ui/to_do/my_day_title.png);
+    }
+    #my_day_text_button:hover
+    {
+        border-image: url(data/ui/to_do/my_day_title_hover.png);
+    }
+    #my_day_text_button:pressed
+    {
+        border-image: url(data/ui/to_do/my_day_title_pressed.png);
+    }
+    /*to_do*/
+    #to_do_text_button{
+        border-image: url(data/ui/to_do/to_do_title.png);
+    }
+    /*to_do*/
+    #to_do_text_button:hover{
+        border-image: url(data/ui/to_do/to_do_title_hover.png);
+    }
+    /*to_do*/
+    #to_do_text_button:pressed{
+        border-image: url(data/ui/to_do/to_do_title_pressed.png);
+    }
+    /*habit*/
+    #habit_bar_text_button
+    {
+        border-image: url(data/ui/habit/habit_title.png);
+    }
+    #habit_bar_text_button:hover
+    {
+        border-image: url(data/ui/habit/habit_title_hover.png);
+    }
+    #habit_bar_text_button:pressed
+    {
+        border-image: url(data/ui/habit/habit_title_pressed.png);
+    }
+    #habit_bar_check_button
+    {
+        border-image: url(data/ui/habit/habit_check_button.png);
+    }
+    #habit_bar{
+        border-image: url(data/ui/habit/habit_bar.png);
+    }
+    #check_button_hide_label
+    {
+        background: white;
+    }
+
+
+/*字体*/
+    .title_one
+{
+    font-family: 微软雅黑;
+    font-size: 25px;
+    color: white;
+}
+.description_one
+{
+    font-family: 微软雅黑;
+    font-size: 15px;
+    color:gray;
+}
+.my_day_describe_font
+{
+    font-family: 微软雅黑;
+    font-size: 35px;
+    color: gray;
+}
+.info_font
+{
+    font-family: 微软雅黑;
+    font-size: 30px;
+    color: gray;
+}
+.bubble_font
+{
+    font-family: 微软雅黑;
+    font-size: 15px;
+    color:gray;
+}

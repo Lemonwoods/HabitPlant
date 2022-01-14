@@ -1,0 +1,86 @@
+
+/*tab_bar的空间样式*/
+/*habit_widget的情况*/
+#tab_bar_to_do_button
+{
+    border-image:url(data/ui/habit/tab_bar_to_do_button.png)
+}
+#tab_bar_to_do_button:hover
+{
+    border-image:url(data/ui/main_window/tab_bar/to_do_button_hover.png)
+}
+#tab_bar_to_do_button:pressed
+{
+    border-image:url(data/ui/main_window/tab_bar/to_do_button_pressed.png)
+}
+
+#tab_bar_habit_button
+{
+    border-image:url(data/ui/habit/tab_bar_habit_button.png)
+}
+#tab_bar_habit_button:hover
+{
+    border-image:url(data/ui/main_window/tab_bar/habit_button_hover.png)
+}
+#tab_bar_habit_button:pressed
+{
+    border-image:url(data/ui/main_window/tab_bar/habit_button_pressed.png)
+}
+
+#tab_bar_plant_button
+{
+    border-image:url(data/ui/habit/tab_bar_plant_button.png)
+}
+#tab_bar_plant_button:hover
+{
+    border-image:url(data/ui/main_window/tab_bar/plant_button_hover.png)
+}
+#tab_bar_plant_button:pressed
+{
+    border-image:url(data/ui/main_window/tab_bar/plant_button_pressed.png)
+}
+
+#tab_bar
+{
+    border-image:url(data/ui/main_window/tab_bar/tab_bar_bg.png)
+}
+
+/*list_box控件 样式关联habit_list_box /to_do_list_box/my_day_list_box*/
+/*这里可以修改滚动条样式 部分滚动区域样式也可以在这里面更改 指代的类形是QScrollArea*/
+#list_box
+{
+    background: transparent;
+    border:none;
+}
+/*这里可以更改滚动区域样式     代表的类型是QFrame*/
+#list_box_frame
+{
+    background: transparent;
+    border:none;
+}
+
+/*所有的bar都集中在下面*/
+    /*my_day*/
+    #my_day_text_button{
+        border-image: url(data/ui/to_do/my_day_title.png);
+    }
+    /*to_do*/
+    #to_do_text_button{
+        border-image: url(data/ui/to_do/to_do_title.png);
+    }
+    /*habit*/
+    #habit_bar_text_button
+    {
+        border-image: url(data/ui/habit/habit_title.png);
+    }
+    #habit_bar_check_button
+    {
+        border-image: url(data/ui/habit/habit_check_button.png);
+    }
+    #habit_bar{
+        border-image: url(data/ui/habit/habit_bar.png);
+    }
+    #check_button_hide_label
+    {
+        background: white;
+    }

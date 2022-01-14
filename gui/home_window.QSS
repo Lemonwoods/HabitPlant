@@ -1,0 +1,21 @@
+#help_list_box
+{
+
+}
+#help_bg
+{
+    border-image: url(data/ui/help/help_bg.png);
+}
+#help_help_list_box
+{
+border-image:url("data/ui/icon/introduce.png");
+}
+#help_list_box QScrollBar
+{
+    max-width:0px;
+}
+#help_button
+{
+  border-image: url(data/ui/edit_window/select_date/check.png);
+}
+

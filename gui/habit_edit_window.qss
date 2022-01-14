@@ -1,0 +1,143 @@
+/*edit_habit_window*/
+#edit_habit_window_background{
+    background: transparent;
+    border-image: url(data/ui/edit_window/habit/bg.png) ;
+}
+#edit_habit_window_title_label_S{
+    border-image: url(data/ui/edit_window/habit/title.png);
+}
+#edit_habit_window_title_label_M{
+    border-image: url(data/ui/edit_window/habit/time_title.png);
+}
+#edit_habit_window_title_label_L{
+    border-image: url(data/ui/edit_window/habit/describe.png);
+}
+#edit_habit_window_line_edit{
+    border-image: url(data/ui/edit_window/habit/input.png);
+}
+.edit_window_save_button{
+    border-image: url(data/ui/edit_window/operate/save.png);
+}
+.edit_window_save_button:hover{
+    border-image: url(data/ui/edit_window/operate/save_hover.png);
+}
+.edit_window_save_button:pressed{
+    border-image: url(data/ui/edit_window/operate/save_pressed.png);
+}
+.edit_window_cancel_button{
+    border-image: url(data/ui/edit_window/operate/cancel.png);
+}
+.edit_window_cancel_button:hover{
+    border-image: url(data/ui/edit_window/operate/cancel_hover.png);
+}
+.edit_window_cancel_button:pressed{
+    border-image: url(data/ui/edit_window/operate/cancel_pressed.png);
+}
+.edit_window_delete_button{
+    border-image: url(data/ui/edit_window/operate/delete.png);
+}
+.edit_window_delete_button:hover{
+    border-image: url(data/ui/edit_window/operate/delete_hover.png);
+}
+.edit_window_delete_button:pressed{
+    border-image: url(data/ui/edit_window/operate/delete_pressed.png);
+}
+#edit_window_mon_button{
+    border-image: url(data/ui/edit_window/habit/week_mo.png);
+}
+#edit_window_mon_button:hover{
+    border-image: url(data/ui/edit_window/habit/week_mo_hover.png);
+
+}
+#edit_window_mon_button:pressed{
+    border-image: url(data/ui/edit_window/habit/week_mo_pressed.png);
+
+}
+#edit_window_tue_button{
+    border-image: url(data/ui/edit_window/habit/week_tu.png);
+
+}
+#edit_window_tue_button:hover{
+    border-image: url(data/ui/edit_window/habit/week_tu_hover.png);
+
+}
+#edit_window_tue_button:pressed{
+    border-image: url(data/ui/edit_window/habit/week_tu_pressed.png);
+
+}
+#edit_window_wen_button{
+    border-image: url(data/ui/edit_window/habit/week_we.png);
+
+}
+#edit_window_wen_button:hover{
+    border-image: url(data/ui/edit_window/habit/week_we_hover.png);
+
+}
+#edit_window_wen_button:pressed{
+    border-image: url(data/ui/edit_window/habit/week_we_pressed.png);
+
+}
+#edit_window_thur_button{
+    border-image: url(data/ui/edit_window/habit/week_th.png);
+
+}
+#edit_window_thur_button:hover{
+    border-image: url(data/ui/edit_window/habit/week_th_hover.png);
+
+}
+#edit_window_thur_button:pressed{
+    border-image: url(data/ui/edit_window/habit/week_th_pressed.png);
+
+}
+#edit_window_fri_button{
+    border-image: url(data/ui/edit_window/habit/week_fr.png);
+
+}
+#edit_window_fri_button:hover{
+    border-image: url(data/ui/edit_window/habit/week_fr_hover.png);
+
+}
+#edit_window_fri_button:pressed{
+    border-image: url(data/ui/edit_window/habit/week_fr_pressed.png);
+
+}
+#edit_window_sat_button{
+    border-image: url(data/ui/edit_window/habit/week_sa.png);
+
+}
+#edit_window_sat_button:hover{
+    border-image: url(data/ui/edit_window/habit/week_sa_hover.png);
+
+}
+#edit_window_sat_button:pressed{
+    border-image: url(data/ui/edit_window/habit/week_sa_pressed.png);
+
+}
+#edit_window_sun_button{
+    border-image: url(data/ui/edit_window/habit/week_su.png);
+
+}
+#edit_window_sun_button:hover{
+    border-image: url(data/ui/edit_window/habit/week_su_hover.png);
+
+}
+#edit_window_sun_button:pressed{
+    border-image: url(data/ui/edit_window/habit/week_su_pressed.png);
+
+}
+#habit_edit_window_selected{
+    border-image: url(data/ui/edit_window/habit/selected.png);
+}
+
+
+.title_two{
+    font-family: 微软雅黑;
+    font-size: 25px;
+    color: white;
+}
+.description_two{
+    font-family: 微软雅黑;
+    font-size: 15px;
+    color: gray;
+}
+

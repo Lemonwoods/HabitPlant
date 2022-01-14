@@ -1,0 +1,190 @@
+
+/*tab_bar的空间样式*/
+/*habit_widget的情况*/
+#tab_bar_to_do_button
+{
+    border-image:url(data/ui/medal/tab_bar_to_do_button.png)
+}
+#tab_bar_to_do_button:hover
+{
+    border-image:url(data/ui/medal/tab_bar_to_do_button_hover.png)
+}
+#tab_bar_to_do_button:pressed
+{
+    border-image:url(data/ui/medal/tab_bar_to_do_button_pressed.png)
+}
+
+#tab_bar_habit_button
+{
+    border-image:url(data/ui/medal/tab_bar_habit_button.png)
+}
+#tab_bar_habit_button:hover
+{
+    border-image:url(data/ui/medal/tab_bar_habit_button_hover.png)
+}
+#tab_bar_habit_button:pressed
+{
+    border-image:url(data/ui/medal/tab_bar_habit_button_pressed.png)
+}
+
+#tab_bar_plant_button
+{
+    border-image:url(data/ui/medal/tab_bar_plant_button.png)
+}
+#tab_bar_plant_button:hover
+{
+    border-image:url(data/ui/medal/tab_bar_plant_button_hover.png)
+}
+#tab_bar_plant_button:pressed
+{
+    border-image:url(data/ui/medal/tab_bar_plant_button_pressed.png)
+}
+#tab_bar_medal_button
+{
+    border-image: url(data/ui/medal/tab_bar_analyse_button.png);
+}
+#tab_bar_medal_button:hover
+{
+    border-image: url(data/ui/medal/tab_bar_analyse_button_hover.png);
+}
+#tab_bar_medal_button:pressed
+{
+    border-image: url(data/ui/medal/tab_bar_analyse_button_pressed.png);
+}
+#tab_bar
+{
+    border-image:url(data/ui/medal/tab_bar_bg.png)
+}
+#help_button{
+    border-image: url(data/ui/help/help_icon.png);
+}
+#help_button:hover{
+    border-image: url(data/ui/help/help_icon_hover.png);
+}
+#help_button:pressed{
+    border-image: url(data/ui/help/help_icon_pressed.png);
+}
+
+
+
+/*奖章墙medal_wall相关控件*/
+/*包含折线图 奖章 信息栏的那个最大的QFrame*/
+#medal_wall_widget
+{
+    border-image: url(data/ui/medal/bg.png);
+}
+/*奖章样式*/
+#plant_one
+{
+    border-image: url(data/ui/medal/medal_one.png);
+}
+#plant_two
+{
+    border-image: url(data/ui/medal/medal_two.png);
+}
+/*这里可以修改滚动条样式 部分滚动区域样式也可以在这里面更改 指代的类形是QScrollArea*/
+#medal_list_box
+{
+    background: transparent;
+    border:none;
+}
+/*这里可以更改滚动区域样式     代表的类型是QFrame*/
+#medal_list_box_frame
+{
+    background: transparent;
+    border:none;
+}
+/*奖章墙左上角的那个label*/
+#medal_title_label
+{
+    border-image: url(data/ui/medal/blue_title.png);
+}
+/*包含list_box和lable的那大块QFrame*/
+#medal_frame
+{
+    border-image: url(data/ui/medal/medal_bg.png);
+}
+
+/*奖章相关页面中 显示统计信息的那个页面*/
+#info_frame
+{
+    border-image: url(data/ui/medal/info_bg.png);
+}
+/*左上角标题*/
+#info_title_label
+{
+    border-image: url(data/ui/medal/blue_title.png);
+}
+/*四个label*/
+#info_medal_num_label
+{
+    border-image: url(data/ui/medal/info_label.png);
+}
+#info_total_use_day_label
+{
+    border-image: url(data/ui/medal/info_label.png);
+}
+#info_full_use_day_label
+{
+    border-image: url(data/ui/medal/info_label.png);
+}
+#info_temp_label
+{
+    border-image: url(data/ui/medal/info_label.png);
+}
+/*折线图样式*/
+#line_chart_frame
+{
+    border-image: url(data/ui/medal/table_bg.png);
+}
+#line_chart_titlr_label
+{
+    border-image: url(data/ui/medal/blue_title.png);
+}
+#chart_frame
+{
+     border-image: url(data/ui/medal/table_net.png);
+}
+/*所有的bar都集中在下面*/
+    /*my_day*/
+    #my_day_text_button{
+        border-image: url(data/ui/to_do/my_day_title.png);
+    }
+    /*to_do*/
+    #to_do_text_button{
+        border-image: url(data/ui/to_do/to_do_title.png);
+    }
+    /*habit*/
+    #habit_bar_text_button
+    {
+        border-image: url(data/ui/habit/habit_title.png);
+    }
+    #habit_bar_check_button
+    {
+        border-image: url(data/ui/habit/habit_check_button.png);
+    }
+    #habit_bar{
+        border-image: url(data/ui/habit/habit_bar.png);
+    }
+    #check_button_hide_label
+    {
+        background: white;
+    }
+.title_three
+{
+    font-family: 微软雅黑;
+    font-size: 20px;
+    color: white;
+}
+.description_three
+{
+    font-family: 微软雅黑;
+    font-size: 15px;
+    color: gray;
+}
+.description_two
+{
+    font-family: 微软雅黑;
+    font-size: 15px;
+    color: gray;
+}

@@ -1,0 +1,82 @@
+/*edit_myday_window*/
+#edit_myday_window_background{
+    border-image: url(data/ui/edit_window/my_day/bg.png);
+}
+#edit_myday_window_title_label_S{
+    border-image: url(data/ui/edit_window/my_day/title.png);
+}
+#edit_myday_window_title_label_L{
+    border-image: url(data/ui/edit_window/my_day/describe.png);
+}
+#edit_myday_window_line_edit{
+    border-image: url(data/ui/edit_window/my_day/input.png);
+}
+.edit_myday_window_time_add_button{
+    border-image: url(data/ui/edit_window/my_day/add_button.png);
+}
+.edit_myday_window_time_add_button:hover{
+    border-image: url(data/ui/edit_window/my_day/add_button_hover.png);
+}
+.edit_myday_window_time_add_button:pressed{
+    border-image: url(data/ui/edit_window/my_day/add_button_pressed.png);
+}
+.edit_myday_window_time_cut_button{
+    border-image: url(data/ui/edit_window/my_day/sub_button.png);
+}
+.edit_myday_window_time_cut_button:hover{
+    border-image: url(data/ui/edit_window/my_day/sub_button_hover.png);
+}
+.edit_myday_window_time_cut_button:pressed{
+    border-image: url(data/ui/edit_window/my_day/sub_button_pressed.png);
+}
+#edit_myday_window_time_value_line_edit{
+    border-image: url(data/ui/edit_window/my_day/info_bg.png);
+}
+.edit_myday_window_time_mid_button{
+    border-image: url(data/ui/edit_window/my_day/fuhao.png);
+}
+
+.edit_window_save_button{
+    border-image: url(data/ui/edit_window/operate/save.png);
+}
+.edit_window_save_button:hover{
+    border-image: url(data/ui/edit_window/operate/save_hover.png);
+}
+.edit_window_save_button:pressed{
+    border-image: url(data/ui/edit_window/operate/save_pressed.png);
+}
+.edit_window_cancel_button{
+    border-image: url(data/ui/edit_window/operate/cancel.png);
+}
+.edit_window_cancel_button:hover{
+    border-image: url(data/ui/edit_window/operate/cancel_hover.png);
+}
+.edit_window_cancel_button:pressed{
+    border-image: url(data/ui/edit_window/operate/cancel_pressed.png);
+}
+.edit_window_delete_button{
+    border-image: url(data/ui/edit_window/operate/delete.png);
+}
+.edit_window_delete_button:hover{
+    border-image: url(data/ui/edit_window/operate/delete_hover.png);
+}
+.edit_window_delete_button:pressed{
+    border-image: url(data/ui/edit_window/operate/delete_pressed.png);
+}
+
+
+.title_two{
+    font-family: 微软雅黑;
+    font-size: 25px;
+    color: white;
+}
+.description_two{
+    font-family: 微软雅黑;
+    font-size: 15px;
+    color: gray;
+}
+.date_two{
+    font-family: 微软雅黑;
+    font-size: 15px;
+    color: gray;
+}

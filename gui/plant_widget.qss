@@ -1,0 +1,312 @@
+
+/*tab_bar的空间样式*/
+/*habit_widget的情况*/
+#tab_bar_to_do_button
+{
+    border-image:url(data/ui/plant/tab_bar_to_do_button.png)
+}
+#tab_bar_to_do_button:hover
+{
+    border-image:url(data/ui/plant/tab_bar_to_do_button_hover.png)
+}
+#tab_bar_to_do_button:pressed
+{
+    border-image:url(data/ui/plant/tab_bar_to_do_button_pressed.png)
+}
+
+#tab_bar_habit_button
+{
+    border-image:url(data/ui/plant/tab_bar_habit_button.png)
+}
+#tab_bar_habit_button:hover
+{
+    border-image:url(data/ui/plant/tab_bar_habit_button_hover.png)
+}
+#tab_bar_habit_button:pressed
+{
+    border-image:url(data/ui/plant/tab_bar_habit_button_pressed.png)
+}
+
+#tab_bar_plant_button
+{
+    border-image:url(data/ui/plant/tab_bar_plant_button.png)
+}
+#tab_bar_plant_button:hover
+{
+    border-image:url(data/ui/plant/tab_bar_plant_button_hover.png)
+}
+#tab_bar_plant_button:pressed
+{
+    border-image:url(data/ui/plant/tab_bar_plant_button_pressed.png)
+}
+#tab_bar_medal_button
+{
+    border-image: url(data/ui/plant/tab_bar_analyse_button.png);
+}
+#tab_bar_medal_button:hover
+{
+    border-image: url(data/ui/plant/tab_bar_analyse_button_hover.png);
+}
+#tab_bar_medal_button:pressed
+{
+    border-image: url(data/ui/plant/tab_bar_analyse_button_pressed.png);
+}
+#tab_bar
+{
+    border-image:url(data/ui/plant/tab_bar_bg.png)
+}
+#help_button{
+    border-image: url(data/ui/help/help_icon.png);
+}
+#help_button:hover{
+    border-image: url(data/ui/help/help_icon_hover.png);
+}
+#help_button:pressed{
+    border-image: url(data/ui/help/help_icon_pressed.png);
+}
+
+
+/*plant_widget的控件*/
+
+/*plant_widget*/
+#plant_widget
+{
+    border-image: url(data/ui/plant/plant_widget.png);
+}
+    /*farm的控件*/
+        /*plant_info的控件*/
+            #plant_widget_farm_plant_info_widget
+            {
+                border-image:url(data/ui/plant/info_bar.png)
+            }
+
+            #plant_widget_farm_plant_info_water
+            {
+                border-image:url(data/ui/plant/info_water.png)
+            }
+
+            #plant_widget_farm_plant_info_fertilizer
+            {
+                border-image:url(data/ui/plant/info_fertilizer.png)
+            }
+
+            #plant_widget_farm_plant_info_grow
+            {
+                border-image:url(data/ui/plant/info_grow.png)
+            }
+
+            #plant_widget_farm_plant_info_health
+            {
+                border-image:url(data/ui/plant/info_health.png)
+            }
+
+            #plant_widget_farm_plant_info_water_wait
+            {
+                border-image:url(data/ui/plant/info_water_wait.png)
+            }
+
+            #plant_widget_farm_plant_info_fertilizer_wait
+            {
+                border-image:url(data/ui/plant/info_fertilizer_wait.png)
+            }
+
+        /*operation_bar的控件*/
+            #plant_widget_farm_operation_bar
+            {
+                background: transparent;
+            }
+
+            #plant_widget_farm_operation_bar_water_button
+            {
+                border-image:url(data/ui/plant/water_button.png)
+            }
+            #plant_widget_farm_operation_bar_water_button:hover
+            {
+                border-image:url(data/ui/plant/water_button_hover.png)
+            }
+            #plant_widget_farm_operation_bar_water_button:pressed
+            {
+                border-image:url(data/ui/plant/water_button_pressed.png)
+            }
+            /*farm*/
+            #plant_widget_farm
+            {
+                border-image: url(data/ui/plant/farm.png);
+            }
+            #plant_widget_farm_plant
+            {
+                background: transparent;
+            }
+            #plant_bubble{
+                border-image: url(data/ui/plant/bubble.png);
+            }
+/*金币框样式*/
+#gold_coin_box
+{
+    border-image: url(data/ui/plant/gold_coin_bg.png);
+}
+#gold_coin_num_label
+{
+
+}
+#gold_coin_img_label
+{
+    border-image: url(data/ui/plant/gold_coin_icon.png);
+}
+/*背包和商店相关样式*/
+        /*放置商品图片的frame*/
+            #fertilizer_one
+            {
+                border-image: url(data/ui/plant/fertilizer_one.png);
+            }
+            #fertilizer_two
+            {
+                border-image: url(data/ui/plant/fertilizer_two.png);
+            }
+            #plant_one
+            {
+                border-image: url(data/ui/plant/plant_one.png);
+            }
+            #plant_two
+            {
+                border-image: url(data/ui/plant/plant_two.png);
+            }
+        /*存储   描述和价格的label 以及描述和数量的label*/
+        #good_desc_label
+        {
+
+        }
+        /*标题label*/
+        #good_title_label
+        {
+            border-image: url(data/ui/plant/mall_title.png);
+        }
+        /*使用和购买的那个按钮*/
+        #mall_good_buy_button
+        {
+            border-image: url(data/ui/plant/buy_button.png);
+        }
+        #mall_good_buy_button:hover
+        {
+            border-image: url(data/ui/plant/buy_button_hover.png);
+        }
+        #mall_good_buy_button:pressed
+        {
+            border-image: url(data/ui/plant/buy_button_pressed.png);
+        }
+        #bag_good_use_button
+        {
+            border-image: url(data/ui/plant/use_button.png);
+        }
+        #bag_good_use_button:hover
+        {
+            border-image: url(data/ui/plant/use_button_hover.png);
+        }
+        #bag_good_use_button:pressed
+        {
+            border-image: url(data/ui/plant/use_button_pressed.png);
+        }
+    /*存放物品图片，物品描述栏，使用(购买)按钮的frame  商店背包可能样式不一样所以独立开了*/
+    #bag_good_frame
+    {
+        border-image: url(data/ui/plant/good_bar.png);
+    }
+    #mall_good_frame
+    {
+        border-image: url(data/ui/plant/good_bar.png);
+    }
+    #bag_and_mall_frame
+    {
+        border-image: url(data/ui/plant/list_box.png);
+    }
+    /*切换到背包 、商店的按钮*/
+    #bag_button
+    {
+        border-image: url(data/ui/plant/bag_button.png);
+    }
+    #bag_button:hover
+    {
+        border-image: url(data/ui/plant/bag_button_hover.png);
+    }
+    #bag_button:pressed
+    {
+        border-image: url(data/ui/plant/bag_button_pressed.png);
+    }
+    #mall_button
+    {
+        border-image: url(data/ui/plant/mall_button.png);
+    }
+    #mall_button:hover
+    {
+        border-image: url(data/ui/plant/mall_button_hover.png);
+    }
+    #mall_button:pressed
+    {
+        border-image: url(data/ui/plant/mall_button_pressed.png);
+    }
+
+
+
+/*list_box控件 样式关联habit_list_box /to_do_list_box/my_day_list_box*/
+/*这里可以修改滚动条样式 部分滚动区域样式也可以在这里面更改 指代的类形是QScrollArea*/
+#list_box
+{
+    background: transparent;
+    border:none;
+}
+/*这里可以更改滚动区域样式     代表的类型是QFrame*/
+#list_box_frame
+{
+    background: transparent;
+    border:none;
+}
+
+/*所有的bar都集中在下面*/
+    /*my_day*/
+    #my_day_text_button{
+        border-image: url(data/ui/to_do/my_day_title.png);
+    }
+    /*to_do*/
+    #to_do_text_button{
+        border-image: url(data/ui/to_do/to_do_title.png);
+    }
+    /*habit*/
+    #habit_bar_text_button
+    {
+        border-image: url(data/ui/habit/habit_title.png);
+    }
+    #habit_bar_check_button
+    {
+        border-image: url(data/ui/habit/habit_check_button.png);
+    }
+    #habit_bar{
+        border-image: url(data/ui/habit/habit_bar.png);
+    }
+    #check_button_hide_label
+    {
+        background: white;
+    }
+
+.title_one
+{
+    font-family: 微软雅黑;
+    font-size: 23px;
+    color: white;
+}
+.description_one
+{
+    font-family: 微软雅黑;
+    font-size: 15px;
+    color:gray;
+}
+.gold_font
+{
+    font-family: 微软雅黑;
+    font-size: 25px;
+    color: gray;
+}
+.bubble_font{
+    font-family: 微软雅黑;
+    font-size: 15px;
+    color:gray;
+}

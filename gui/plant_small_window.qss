@@ -1,0 +1,41 @@
+/*plant_small_window*/
+#small_plant
+{
+    background: transparent;
+}
+#small_plant_chat_button
+{
+    border-image:url(data/ui/plant_small_window/chat_one_line.png)
+}
+#small_plant_chat_button:hover
+{
+
+}
+#small_plant_chat_button:pressed{
+
+}
+#small_plant_chat_button_button1{
+
+}
+#small_plant_chat_button_button1:hover{
+
+}
+#small_plant_chat_button_button1:pressed{
+
+}
+#small_plant_water_button
+{
+    border-image:url(data/ui/plant_small_window/show_button.png)
+}
+#small_plant_water_button:hover{
+    border-image:url(data/ui/plant_small_window/show_button_hover.png)
+}
+#small_plant_water_button:pressed{
+    border-image:url(data/ui/plant_small_window/show_button_pressed.png)
+}
+.chat_font
+{
+    font-family: 微软雅黑;
+    font-size: 15px;
+    color:gray;
+}
