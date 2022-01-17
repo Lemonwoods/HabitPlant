@@ -14,7 +14,7 @@
 
 ## 功能：
 
-详细功能可以阅读根目录下的[HabitPlant介绍文档 PDF版.pdf](https://github.com/Lemonwoods/HabitPlant/blob/master/HabitPlant介绍文档 PDF版.pdf)
+详细功能可以阅读根目录下的[HabitPlant介绍文档 PDF版.pdf](https://github.com/Lemonwoods/HabitPlant/blob/master/HabitPlant%E4%BB%8B%E7%BB%8D%E6%96%87%E6%A1%A3%20PDF%E7%89%88.pdf)
 
 ### 核心思想
 
